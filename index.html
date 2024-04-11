@@ -7,544 +7,554 @@
     <title>Тест</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 1
-            </h2>
-            <span class="form-item__question">
-                Когда вы задаёте вопросы, с какой целью вы делаете это чаще?
-            </span>
-            <form action="#" class="form-item__form" id="form1">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q1" value="-1" id="q1_1">
-                    <label for="q1_1">Продолжение беседы</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q1" value="1" id="q1_2">
-                    <label for="q1_2">Получение информации</label>
-                </div>
-            </form>
+        <div class="form-wrap">
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 1
+                </h2>
+                <span class="form-item__question">
+                    Когда вы задаёте вопросы, с какой целью вы делаете это чаще?
+                </span>
+                <form action="#" class="form-item__form" id="form1">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q1" value="-1" id="q1_1">
+                        <label for="q1_1">Продолжение беседы</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q1" value="1" id="q1_2">
+                        <label for="q1_2">Получение информации</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 2
+                </h2>
+                <span class="form-item__question">
+                    Какой стратегии вы обычно придерживаетесь?
+                </span>
+                <form action="#" class="form-item__form" id="form2">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q2" value="-1" id="q2_1">
+                        <label for="q2_1">Сотрудничество. Стратегия, при которой человек стремится разрешить конфликт таким образом, чтобы в выигрыше оказались все</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q2" value="1" id="q2_2">
+                        <label for="q2_2">Доминирование. Стратегия, при которой человек стремится занять в группе главенствующее положение и оказывать преобладающее влияние на других</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q2" value="1" id="q2_3">
+                        <label for="q2_3">Соревнование. Стратегия, при которой человек стремится добиться удовлетворения своих интересов в ущерб интересам другого</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q2" value="-1" id="q2_4">
+                        <label for="q2_4">Приспособление. Стратегия, при которой человек готов поступиться своими интересами и уступить другому человеку ради того, чтобы избежать противостояния</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q2" value="-1" id="q2_5">
+                        <label for="q2_5">Компромисс. Стратегия, при которой происходит частичное удовлетворение интересов обеих сторон конфликта</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q2" value="1" id="q2_6">
+                        <label for="q2_6">Уклонение. Стратегия, при которой человек сознательно уклоняется, уходит от работы в команде</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 3
+                </h2>
+                <span class="form-item__question">
+                    На ваш взгляд, насколько строго вы следуете теме в обсуждениях  чаще всего?
+                </span>
+                <form action="#" class="form-item__form" id="form3">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q3" value="1" id="q3_1">
+                        <label for="q3_1">Строго</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q3" value="1" id="q3_2">
+                        <label for="q3_2">В основном следую</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q3" value="-1" id="q3_3">
+                        <label for="q3_3">Иногда комментирую</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q3" value="-1" id="q3_4">
+                        <label for="q3_4">Часто комментирую</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 4
+                </h2>
+                <span class="form-item__question">
+                    Используете ли вы ненормативную лексику в повседневном общении?
+                </span>
+                <form action="#" class="form-item__form" id="form4">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q4" value="1" id="q4_1">
+                        <label for="q4_1">Да, регулярно использую в речи</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q4" value="1" id="q4_2">
+                        <label for="q4_2">Да, но только в беседах на повышенных тонах</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q4" value="-1" id="q4_3">
+                        <label for="q4_3">Нет, стараюсь избегать подобных выражений</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q4" value="-1" id="q4_4">
+                        <label for="q4_4">Нет, вообще не использую</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 5
+                </h2>
+                <span class="form-item__question">
+                    Во время общения важна ли вам реакция партнёра на тему разговора?
+                </span>
+                <form action="#" class="form-item__form" id="form5">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q5" value="-1" id="q5_1">
+                        <label for="q5_1">Да, я ориентируюсь на выссказывания коммуникативного партнёра</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q5" value="1" id="q5_2">
+                        <label for="q5_2">Нет, в большей степени ориентируюсь на собственные предыдущие высказывания</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q5" value="0" id="q5_3">
+                        <label for="q5_3">В зависимости от коммуникативной ситуации</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 6
+                </h2>
+                <span class="form-item__question">
+                    Как вы относитесь к командной работе?
+                </span>
+                <form action="#" class="form-item__form" id="form6">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q6" value="-1" id="q6_1">
+                        <label for="q6_1">Положительно, люблю работать в команде</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q6" value="-1" id="q6_2">
+                        <label for="q6_2">Если есть возможность, предпочту работать в комаде</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q6" value="0" id="q6_3">
+                        <label for="q6_3">Нейтрально, не чувствую разницы между командной и самостоятельной работой</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q6" value="1" id="q6_4">
+                        <label for="q6_4">Если есть возможность, предпочту работать самостоятельно</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q6" value="1" id="q6_5">
+                        <label for="q6_5">Негативно, всегда работаю сам</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 7
+                </h2>
+                <span class="form-item__question">
+                    Руководитель регулярно даёт проекты, которые следует выполнять в команде. Анна, Иван и Екатерина всегда работают вместе. Как вы думаете, чем мотивировано их поведение?
+                </span>
+                <form action="#" class="form-item__form" id="form7">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q7" value="1" id="q7_1">
+                        <label for="q7_1">Признанием руководителя, так как работники хотят быть лучшими в отделе</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q7" value="-1" id="q7_2">
+                        <label for="q7_2">Обменом знаниями, личностным ростом</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q7" value="-1" id="q7_3">
+                        <label for="q7_3">Дружескими отношениями и комфортом в работе</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q7" value="1" id="q7_4">
+                        <label for="q7_4">Боязнью быть отвергнутыми в другой компании</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 8
+                </h2>
+                <span class="form-item__question">
+                    Математический клуб поставил перед собой цель - решать каждый день задачи по стереометрии и планиметрии. На ваш взгляд, почему они выбрали такую цель?
+                </span>
+                <form action="#" class="form-item__form" id="form8">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q8" value="1" id="q8_1">
+                        <label for="q8_1">Выиграть предстоящую математическую олимпиаду и получить материальное вознаграждение</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q8" value="-1" id="q8_2">
+                        <label for="q8_2">Заслужить похвалу преподавателя и получить высокую оценку</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q8" value="-1" id="q8_3">
+                        <label for="q8_3">Повысить свой уровень математики, получить новые знания/label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q8" value="1" id="q8_4">
+                        <label for="q8_4">Страх потерять лидирующую позицию</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 9
+                </h2>
+                <span class="form-item__question">
+                    По итогам собеседования, в женский коллектив руководитель решила взять специалиста мужчину. Но её заместитель посчитала эту идею плохой и настроила всех остальных коллег против этого. Как вы думаете, почему заместитель руководителя так поступила?
+                </span>
+                <form action="#" class="form-item__form" id="form9">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q9" value="1" id="q9_1">
+                        <label for="q9_1">Страх потери лидерской позиции</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q9" value="-1" id="q9_2">
+                        <label for="q9_2">Вероятность разлада в коллективе</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q9" value="1" id="q9_3">
+                        <label for="q9_3">Личные недопонимания</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q9" value="-1" id="q9_4">
+                        <label for="q9_4">Нежелание портить атмосферу внутри компании</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 10
+                </h2>
+                <span class="form-item__question">
+                    Сотрудник компании решил повысить свою квалификацию, для достижения этой цели он прошёл курсы. Что было мотивом его поступка?
+                </span>
+                <form action="#" class="form-item__form" id="form910">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q10" value="-1" id="q10_1">
+                        <label for="q10_1">Признание людей, работающих в этой сфере</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q10" value="1" id="q10_2">
+                        <label for="q10_2">Популярность, престиж более высокой квалификации и получение хорошей заработной платы</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q10" value="-1" id="q10_3">
+                        <label for="q10_3">Желание получить новые знания и разностороннее развитие</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q10" value="1" id="q10_4">
+                        <label for="q10_4">Желание осуществить свою давнюю мечту - стать руководителем</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 11
+                </h2>
+                <span class="form-item__question">
+                    Работник из маленького провинциального города хочет устроиться в крупную компанию, которая находится в областном центре. Каковы мотивы его поведения?
+                </span>
+                <form action="#" class="form-item__form" id="form11">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q11" value="1" id="q11_1">
+                        <label for="q11_1">Желание превзойти своих знакомых и друзей и получить моральное удовольствие</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q11" value="1" id="q11_2">
+                        <label for="q11_2">Получить престижный опыт и устроиться на хорошую работу</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q11" value="-1" id="q11_3">
+                        <label for="q11_3">Желание расширить свой круг общения, приобрести полезные связи</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q11" value="-1" id="q11_4">
+                        <label for="q11_4">Большая возможность самореализации</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 12
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы устроились на работу в модную кофейню в центре Москвы. Что является вашей мотивацией?
+                </span>
+                <form action="#" class="form-item__form" id="form12">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q12" value="1" id="q12_1">
+                        <label for="q12_1">Получение заработной платы для достижения материальной цели</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q12" value="-1" id="q12_2">
+                        <label for="q12_2">Престижность компании и местоположение</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q12" value="-1" id="q12_3">
+                        <label for="q12_3">Одобрение друзей</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q12" value="1" id="q12_4">
+                        <label for="q12_4">Независимость</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 13
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы покупаете и носите только новую брендовую одежду. Что вас на это мотивирует?
+                </span>
+                <form action="#" class="form-item__form" id="form13">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q13" value="-1" id="q13_1">
+                        <label for="q13_1">Желание понравиться друзьям и окружающим людям в целом</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q13" value="1" id="q13_2">
+                        <label for="q13_2">Уверенность, что это гарант качественной одежды</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q13" value="-1" id="q13_3">
+                        <label for="q13_3">Стремление следовать трендам общества</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q13" value="-1" id="q13_4">
+                        <label for="q13_4">Желание хорошо выглядеть и нравиться себе</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 14
+                </h2>
+                <span class="form-item__question">
+                    По итогам собеседования, в мужской коллектив руководитель решил взять специалиста женщину. Член команды выразил неодобрение от лица всего коллектива. Как вы думаете, чем мотивирован их отказ?
+                </span>
+                <form action="#" class="form-item__form" id="form14">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q14" value="1" id="q14_1">
+                        <label for="q14_1">Теряется раскрепощённость разговоров</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q14" value="-1" id="q14_2">
+                        <label for="q14_2">Вероятность разлада в коллективе</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q14" value="1" id="q14_3">
+                        <label for="q14_3">Неспособность девушки привнести в команду что-то новое</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q14" value="-1" id="q14_4">
+                        <label for="q14_4">Боязнь непонимания их общения</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 15
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы решаете заниматься в спортивном зале три раза в неделю. Что вас мотивирует на этот поступок
+                </span>
+                <form action="#" class="form-item__form" id="form15">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q15" value="-1" id="q15_1">
+                        <label for="q15_1">Похвала со стороны общества за полезное времяпрепровождение</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q15" value="1" id="q15_2">
+                        <label for="q15_2">Желание найти новый круг общения в спортивном зале</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q15" value="1" id="q15_3">
+                        <label for="q15_3">Стремление улучшить здоровье, силу духа и выносливость</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q15" value="-1" id="q15_4">
+                        <label for="q15_4">Желание следить за своим внешним видом и поддерживать спортивную форму</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 16
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы являетесь членом любительского клуба садоводов. Вы всю зиму выращивали тюльпаны. А в начале весны решили раздавать их в честь 8 марта. На ваш взгляд, что было мотивом такого решения.
+                </span>
+                <form action="#" class="form-item__form" id="form16">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q16" value="-1" id="q16_1">
+                        <label for="q16_1">Продвижение и известность клуба</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q16" value="1" id="q16_2">
+                        <label for="q16_2">Сделать приятно прохожим девушкам</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q16" value="-1" id="q16_3">
+                        <label for="q16_3">Способ знакомства с новыми людьми</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q16" value="-1" id="q16_4">
+                        <label for="q16_4">Повысить свои коммуникативные навыки</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q16" value="1" id="q16_5">
+                        <label for="q16_5">Лучше, чем ничего. Иначе цветы бы завяли</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 17
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы являетесь членом любительского клуба садоводов. Вы всю зиму выращивали тюльпаны. А в начале весны решили раздавать их вчесть 8 Марта. Какова будет ваша роль в этом?
+                </span>
+                <form action="#" class="form-item__form" id="form17">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q17" value="1" id="q17_1">
+                        <label for="q17_1">Я буду лидером, вдохновлю весь клуб</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q17" value="-1" id="q17_2">
+                        <label for="q17_2">Я с удовольствием поучаствую со всеми</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q17" value="0" id="q17_3">
+                        <label for="q17_3">Я в этом участвовать не буду</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 18
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы являетесь участником команды, которая участвует в творческом конкурсе чтецов. Как вы думаете, что мотивирует команду на участие?
+                </span>
+                <form action="#" class="form-item__form" id="form18">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q18" value="1" id="q18_1">
+                        <label for="q18_1">Победа в конкурсе</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q18" value="1" id="q18_2">
+                        <label for="q18_2">Получение приза </label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q18" value="-1" id="q18_3">
+                        <label for="q18_3">Поделиться своим творчеством с другими</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q18" value="1" id="q18_4">
+                        <label for="q18_4">Побороть свои страхи, преодоление себя</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q18" value="-1" id="q18_5">
+                        <label for="q18_5">Повышение своей популярности среди студентов</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q18" value="-1" id="q18_6">
+                        <label for="q18_6">Новые знакомства</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 19
+                </h2>
+                <span class="form-item__question">
+                    Представьте, что вы являетесь участником команды, которая участвует в творческом конкурсе чтецов. Какое место в команде вы займёте?
+                </span>
+                <form action="#" class="form-item__form" id="form19">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="1" id="q19_1">
+                        <label for="q19_1">Я буду лидером команды</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="-1" id="q19_2">
+                        <label for="q19_2">Я буду творческим вдохновителем</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="1" id="q19_3">
+                        <label for="q19_3">Я буду реалистом и указывать команде на недостатки</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="1" id="q19_4">
+                        <label for="q19_4">Я буду помогать с подготовкой, но в выступлении участвовать не буду</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="-1" id="q19_5">
+                        <label for="q19_5">Я буду делать то, что нужно команде</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="0" id="q19_6">
+                        <label for="q19_6">Я бы хотел(а) помогать, но у меня много своих дел</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q19" value="0" id="q19_7">
+                        <label for="q19_7">Я ничего не буду делать</label>
+                    </div>
+                </form>
+            </div>
+            <div class="form-item">
+                <h2 class="form-item__title">
+                    Вопрос 20
+                </h2>
+                <span class="form-item__question">
+                    Укажите ваш пол?
+                </span>
+                <form action="#" class="form-item__form" id="form20">
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q20" value="1" id="q20_1">
+                        <label for="q20_1">Мужской</label>
+                    </div>
+                    <div class="form-item__input-wrap">
+                        <input type="radio" name="q20" value="-1" id="q20_2">
+                        <label for="q20_2">Женский</label>
+                    </div>
+                </form>
+            </div>
+            <button class="send-btn" id="send-btn" type="submit">
+                Отправить тест
+            </button>
         </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 2
-            </h2>
-            <span class="form-item__question">
-                Какой стратегии вы обычно придерживаетесь?
-            </span>
-            <form action="#" class="form-item__form" id="form2">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q2" value="-1" id="q2_1">
-                    <label for="q2_1">Сотрудничество. Стратегия, при которой человек стремится разрешить конфликт таким образом, чтобы в выигрыше оказались все</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q2" value="1" id="q2_2">
-                    <label for="q2_2">Доминирование. Стратегия, при которой человек стремится занять в группе главенствующее положение и оказывать преобладающее влияние на других</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q2" value="1" id="q2_3">
-                    <label for="q2_3">Соревнование. Стратегия, при которой человек стремится добиться удовлетворения своих интересов в ущерб интересам другого</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q2" value="-1" id="q2_4">
-                    <label for="q2_4">Приспособление. Стратегия, при которой человек готов поступиться своими интересами и уступить другому человеку ради того, чтобы избежать противостояния</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q2" value="-1" id="q2_5">
-                    <label for="q2_5">Компромисс. Стратегия, при которой происходит частичное удовлетворение интересов обеих сторон конфликта</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q2" value="1" id="q2_6">
-                    <label for="q2_6">Уклонение. Стратегия, при которой человек сознательно уклоняется, уходит от работы в команде</label>
-                </div>
-            </form>
+        <div class="feedback">
+            <p class="feedback-test">
+
+            </p>
         </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 3
-            </h2>
-            <span class="form-item__question">
-                На ваш взгляд, насколько строго вы следуете теме в обсуждениях  чаще всего?
-            </span>
-            <form action="#" class="form-item__form" id="form3">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q3" value="1" id="q3_1">
-                    <label for="q3_1">Строго</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q3" value="1" id="q3_2">
-                    <label for="q3_2">В основном следую</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q3" value="-1" id="q3_3">
-                    <label for="q3_3">Иногда комментирую</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q3" value="-1" id="q3_4">
-                    <label for="q3_4">Часто комментирую</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 4
-            </h2>
-            <span class="form-item__question">
-                Используете ли вы ненормативную лексику в повседневном общении?
-            </span>
-            <form action="#" class="form-item__form" id="form4">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q4" value="1" id="q4_1">
-                    <label for="q4_1">Да, регулярно использую в речи</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q4" value="1" id="q4_2">
-                    <label for="q4_2">Да, но только в беседах на повышенных тонах</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q4" value="-1" id="q4_3">
-                    <label for="q4_3">Нет, стараюсь избегать подобных выражений</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q4" value="-1" id="q4_4">
-                    <label for="q4_4">Нет, вообще не использую</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 5
-            </h2>
-            <span class="form-item__question">
-                Во время общения важна ли вам реакция партнёра на тему разговора?
-            </span>
-            <form action="#" class="form-item__form" id="form5">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q5" value="-1" id="q5_1">
-                    <label for="q5_1">Да, я ориентируюсь на выссказывания коммуникативного партнёра</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q5" value="1" id="q5_2">
-                    <label for="q5_2">Нет, в большей степени ориентируюсь на собственные предыдущие высказывания</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q5" value="0" id="q5_3">
-                    <label for="q5_3">В зависимости от коммуникативной ситуации</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 6
-            </h2>
-            <span class="form-item__question">
-                Как вы относитесь к командной работе?
-            </span>
-            <form action="#" class="form-item__form" id="form6">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q6" value="-1" id="q6_1">
-                    <label for="q6_1">Положительно, люблю работать в команде</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q6" value="-1" id="q6_2">
-                    <label for="q6_2">Если есть возможность, предпочту работать в комаде</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q6" value="0" id="q6_3">
-                    <label for="q6_3">Нейтрально, не чувствую разницы между командной и самостоятельной работой</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q6" value="1" id="q6_4">
-                    <label for="q6_4">Если есть возможность, предпочту работать самостоятельно</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q6" value="1" id="q6_5">
-                    <label for="q6_5">Негативно, всегда работаю сам</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 7
-            </h2>
-            <span class="form-item__question">
-                Руководитель регулярно даёт проекты, которые следует выполнять в команде. Анна, Иван и Екатерина всегда работают вместе. Как вы думаете, чем мотивировано их поведение?
-            </span>
-            <form action="#" class="form-item__form" id="form7">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q7" value="1" id="q7_1">
-                    <label for="q7_1">Признанием руководителя, так как работники хотят быть лучшими в отделе</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q7" value="-1" id="q7_2">
-                    <label for="q7_2">Обменом знаниями, личностным ростом</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q7" value="-1" id="q7_3">
-                    <label for="q7_3">Дружескими отношениями и комфортом в работе</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q7" value="1" id="q7_4">
-                    <label for="q7_4">Боязнью быть отвергнутыми в другой компании</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 8
-            </h2>
-            <span class="form-item__question">
-                Математический клуб поставил перед собой цель - решать каждый день задачи по стереометрии и планиметрии. На ваш взгляд, почему они выбрали такую цель?
-            </span>
-            <form action="#" class="form-item__form" id="form8">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q8" value="1" id="q8_1">
-                    <label for="q8_1">Выиграть предстоящую математическую олимпиаду и получить материальное вознаграждение</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q8" value="-1" id="q8_2">
-                    <label for="q8_2">Заслужить похвалу преподавателя и получить высокую оценку</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q8" value="-1" id="q8_3">
-                    <label for="q8_3">Повысить свой уровень математики, получить новые знания/label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q8" value="1" id="q8_4">
-                    <label for="q8_4">Страх потерять лидирующую позицию</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 9
-            </h2>
-            <span class="form-item__question">
-                По итогам собеседования, в женский коллектив руководитель решила взять специалиста мужчину. Но её заместитель посчитала эту идею плохой и настроила всех остальных коллег против этого. Как вы думаете, почему заместитель руководителя так поступила?
-            </span>
-            <form action="#" class="form-item__form" id="form9">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q9" value="1" id="q9_1">
-                    <label for="q9_1">Страх потери лидерской позиции</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q9" value="-1" id="q9_2">
-                    <label for="q9_2">Вероятность разлада в коллективе</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q9" value="1" id="q9_3">
-                    <label for="q9_3">Личные недопонимания</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q9" value="-1" id="q9_4">
-                    <label for="q9_4">Нежелание портить атмосферу внутри компании</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 10
-            </h2>
-            <span class="form-item__question">
-                Сотрудник компании решил повысить свою квалификацию, для достижения этой цели он прошёл курсы. Что было мотивом его поступка?
-            </span>
-            <form action="#" class="form-item__form" id="form910">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q10" value="-1" id="q10_1">
-                    <label for="q10_1">Признание людей, работающих в этой сфере</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q10" value="1" id="q10_2">
-                    <label for="q10_2">Популярность, престиж более высокой квалификации и получение хорошей заработной платы</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q10" value="-1" id="q10_3">
-                    <label for="q10_3">Желание получить новые знания и разностороннее развитие</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q10" value="1" id="q10_4">
-                    <label for="q10_4">Желание осуществить свою давнюю мечту - стать руководителем</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 11
-            </h2>
-            <span class="form-item__question">
-                Работник из маленького провинциального города хочет устроиться в крупную компанию, которая находится в областном центре. Каковы мотивы его поведения?
-            </span>
-            <form action="#" class="form-item__form" id="form11">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q11" value="1" id="q11_1">
-                    <label for="q11_1">Желание превзойти своих знакомых и друзей и получить моральное удовольствие</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q11" value="1" id="q11_2">
-                    <label for="q11_2">Получить престижный опыт и устроиться на хорошую работу</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q11" value="-1" id="q11_3">
-                    <label for="q11_3">Желание расширить свой круг общения, приобрести полезные связи</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q11" value="-1" id="q11_4">
-                    <label for="q11_4">Большая возможность самореализации</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 12
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы устроились на работу в модную кофейню в центре Москвы. Что является вашей мотивацией?
-            </span>
-            <form action="#" class="form-item__form" id="form12">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q12" value="1" id="q12_1">
-                    <label for="q12_1">Получение заработной платы для достижения материальной цели</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q12" value="-1" id="q12_2">
-                    <label for="q12_2">Престижность компании и местоположение</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q12" value="-1" id="q12_3">
-                    <label for="q12_3">Одобрение друзей</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q12" value="1" id="q12_4">
-                    <label for="q12_4">Независимость</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 13
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы покупаете и носите только новую брендовую одежду. Что вас на это мотивирует?
-            </span>
-            <form action="#" class="form-item__form" id="form13">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q13" value="-1" id="q13_1">
-                    <label for="q13_1">Желание понравиться друзьям и окружающим людям в целом</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q13" value="1" id="q13_2">
-                    <label for="q13_2">Уверенность, что это гарант качественной одежды</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q13" value="-1" id="q13_3">
-                    <label for="q13_3">Стремление следовать трендам общества</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q13" value="-1" id="q13_4">
-                    <label for="q13_4">Желание хорошо выглядеть и нравиться себе</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 14
-            </h2>
-            <span class="form-item__question">
-                По итогам собеседования, в мужской коллектив руководитель решил взять специалиста женщину. Член команды выразил неодобрение от лица всего коллектива. Как вы думаете, чем мотивирован их отказ?
-            </span>
-            <form action="#" class="form-item__form" id="form14">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q14" value="1" id="q14_1">
-                    <label for="q14_1">Теряется раскрепощённость разговоров</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q14" value="-1" id="q14_2">
-                    <label for="q14_2">Вероятность разлада в коллективе</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q14" value="1" id="q14_3">
-                    <label for="q14_3">Неспособность девушки привнести в команду что-то новое</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q14" value="-1" id="q14_4">
-                    <label for="q14_4">Боязнь непонимания их общения</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 15
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы решаете заниматься в спортивном зале три раза в неделю. Что вас мотивирует на этот поступок
-            </span>
-            <form action="#" class="form-item__form" id="form15">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q15" value="-1" id="q15_1">
-                    <label for="q15_1">Похвала со стороны общества за полезное времяпрепровождение</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q15" value="1" id="q15_2">
-                    <label for="q15_2">Желание найти новый круг общения в спортивном зале</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q15" value="1" id="q15_3">
-                    <label for="q15_3">Стремление улучшить здоровье, силу духа и выносливость</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q15" value="-1" id="q15_4">
-                    <label for="q15_4">Желание следить за своим внешним видом и поддерживать спортивную форму</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 16
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы являетесь членом любительского клуба садоводов. Вы всю зиму выращивали тюльпаны. А в начале весны решили раздавать их в честь 8 марта. На ваш взгляд, что было мотивом такого решения.
-            </span>
-            <form action="#" class="form-item__form" id="form16">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q16" value="-1" id="q16_1">
-                    <label for="q16_1">Продвижение и известность клуба</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q16" value="1" id="q16_2">
-                    <label for="q16_2">Сделать приятно прохожим девушкам</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q16" value="-1" id="q16_3">
-                    <label for="q16_3">Способ знакомства с новыми людьми</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q16" value="-1" id="q16_4">
-                    <label for="q16_4">Повысить свои коммуникативные навыки</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q16" value="1" id="q16_5">
-                    <label for="q16_5">Лучше, чем ничего. Иначе цветы бы завяли</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 17
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы являетесь членом любительского клуба садоводов. Вы всю зиму выращивали тюльпаны. А в начале весны решили раздавать их вчесть 8 Марта. Какова будет ваша роль в этом?
-            </span>
-            <form action="#" class="form-item__form" id="form17">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q17" value="1" id="q17_1">
-                    <label for="q17_1">Я буду лидером, вдохновлю весь клуб</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q17" value="-1" id="q17_2">
-                    <label for="q17_2">Я с удовольствием поучаствую со всеми</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q17" value="0" id="q17_3">
-                    <label for="q17_3">Я в этом участвовать не буду</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 18
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы являетесь участником команды, которая участвует в творческом конкурсе чтецов. Как вы думаете, что мотивирует команду на участие?
-            </span>
-            <form action="#" class="form-item__form" id="form18">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q18" value="1" id="q18_1">
-                    <label for="q18_1">Победа в конкурсе</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q18" value="1" id="q18_2">
-                    <label for="q18_2">Получение приза </label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q18" value="-1" id="q18_3">
-                    <label for="q18_3">Поделиться своим творчеством с другими</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q18" value="1" id="q18_4">
-                    <label for="q18_4">Побороть свои страхи, преодоление себя</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q18" value="-1" id="q18_5">
-                    <label for="q18_5">Повышение своей популярности среди студентов</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q18" value="-1" id="q18_6">
-                    <label for="q18_6">Новые знакомства</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 19
-            </h2>
-            <span class="form-item__question">
-                Представьте, что вы являетесь участником команды, которая участвует в творческом конкурсе чтецов. Какое место в команде вы займёте?
-            </span>
-            <form action="#" class="form-item__form" id="form19">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="1" id="q19_1">
-                    <label for="q19_1">Я буду лидером команды</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="-1" id="q19_2">
-                    <label for="q19_2">Я буду творческим вдохновителем</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="1" id="q19_3">
-                    <label for="q19_3">Я буду реалистом и указывать команде на недостатки</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="1" id="q19_4">
-                    <label for="q19_4">Я буду помогать с подготовкой, но в выступлении участвовать не буду</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="-1" id="q19_5">
-                    <label for="q19_5">Я буду делать то, что нужно команде</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="0" id="q19_6">
-                    <label for="q19_6">Я бы хотел(а) помогать, но у меня много своих дел</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q19" value="0" id="q19_7">
-                    <label for="q19_7">Я ничего не буду делать</label>
-                </div>
-            </form>
-        </div>
-        <div class="form-item">
-            <h2 class="form-item__title">
-                Вопрос 20
-            </h2>
-            <span class="form-item__question">
-                Укажите ваш пол?
-            </span>
-            <form action="#" class="form-item__form" id="form20">
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q20" value="1" id="q20_1">
-                    <label for="q20_1">Мужской</label>
-                </div>
-                <div class="form-item__input-wrap">
-                    <input type="radio" name="q20" value="-1" id="q20_2">
-                    <label for="q20_2">Женский</label>
-                </div>
-            </form>
-        </div>
-        <button class="send-btn" id="send-btn" type="submit">
-            Отправить тест
-        </button>
     </div>
     <script src="js/main.min.js"></script>
 </body>
